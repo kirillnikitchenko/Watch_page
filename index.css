@@ -48,6 +48,7 @@ body {
     margin-bottom: 51px;
     font-size: 32px;
     line-height: 50px;
+    width: 575px;
 }
 
 .buy-wrapper {
@@ -81,4 +82,19 @@ body {
     display: block;
     width: 408px;
     margin-top: -104px;
+    margin-left: 82px;
+}
+
+.popular-title {
+    margin-top: 43px;
+    margin-left: 621px;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.models-title {
+    margin-left: 564px;
+    font-size: 72px;
+    line-height: 81px;
+    font-weight: 400px;
 }
