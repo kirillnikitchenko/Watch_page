@@ -23,6 +23,7 @@ body {
 
 .header-container {
     display: flex;
+    margin: 0 auto;
     width: 1440px;
     padding-top: 104px;
     padding-left: 133px;
@@ -95,18 +96,20 @@ body {
     font-size: 72px;
     line-height: 81px;
     text-align: center;
+    margin-bottom: 84px;
 }
 
 .item-wrapper {
     margin: 0 auto;
-    width: 417px;
+    width: 500px;
+    margin-bottom: 85px;
 }
 
 .item-img-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 417px;
+    width: 500px;
     height: 630px;
     background-color: #F8F8F8;
     margin-bottom: 67px;
@@ -117,4 +120,46 @@ body {
     line-height: 30px;
     text-align: center;
     margin-bottom: 17px;
+    font-weight: 400;
+}
+
+.item-description {
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.produkt-description-wrapper {
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 58px;
+    margin-top: 100px;
+}
+
+.product-deskription-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px;
+    margin-bottom: 58px;
+    font-weight: 400;
+    border-bottom: #161515;
+    margin-bottom: 5px;
+}
+
+.product-deskription {
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 49px;
+}
+
+.product-description-link {
+    color: #BB8B5D;
+}
+
+.product-deskription_line {
+    text-align: center;
+    color: #707070;
 }
